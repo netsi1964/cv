@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+### Running demo:
+[Running demo on CodePen](https://codepen.io/netsi1964/project/full/ApoVvn/)
+
 ## Available Scripts
 
 In the project directory, you can run:

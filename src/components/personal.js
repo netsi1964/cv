@@ -20,7 +20,7 @@ const Personal = props => {
         </div>
         <div className="person-city">
           <a href={googleMapURL} target="_blank" rel="noopener noreferrer">
-            {props.zip}
+            {props.zip}&#160;
             {props.city}
           </a>
         </div>
