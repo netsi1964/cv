@@ -1,0 +1,15 @@
+[{
+    "from": "2010-01-01",
+    "to": "2010-01-03",
+    "name": "Sitecore",
+    "url": "#",
+    "label": "Sitecore Frontend developer certified "
+  },
+  {
+    "from": "2008-01-01",
+    "to": "2008-03-03",
+    "name": "C#.NET 60 hours course",
+    "url": "#",
+    "label": "Certified .NET developer"
+  }
+]

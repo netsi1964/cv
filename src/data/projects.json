@@ -1,0 +1,25 @@
+[{
+    "from": "2010-01-01",
+    "to": "",
+    "name": "CodePen",
+    "url": "https://codepen.io/netsi1964/",
+    "label": "Contributer",
+    "description": "Front-end developer who loves all the features given to us from the web. It is the ultimate toolbox."
+  },
+  {
+    "from": "2016-11-25",
+    "to": "2017-01-10",
+    "name": "SVG/ReactJS math patterns",
+    "url": "http://codepen.io/netsi1964/full/qqXBmx/",
+    "label": "Developer",
+    "description": "A prototype created for <em>kamstrup.com</em> which lets the user select a range visually over some <code>D3</code> based graph. Developed using <code>ReactJS</code> <a href='http://codepen.io/netsi1964/full/BWQjow/'>d3 curtain selector</a>."
+  },
+  {
+    "from": "2016-11-25",
+    "to": "2017-01-10",
+    "name": "SPA for Martin.com",
+    "url": "https://web.archive.org/web/20160529164812/http://wall.martin.com/?",
+    "label": "Developer",
+    "description": "This website is a highly custom build. A responsive site implemented using C# Razor based templates in Dynamicweb CMS."
+  }
+]

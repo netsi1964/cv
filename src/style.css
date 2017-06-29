@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,800);
+:root {
+  --space: 5px;
+  --horisontal-space: calc(var(--space) * 2);
+  --vertical-space: var(--space);
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  padding: var(--vertical-space) var(--horisontal-space);
+}
+
+.cv-header {
+  color: hsla(0, 10%, 25%, 1);
+  margin: var(--vertical-space) var(--horisontal-space);
+  font-size: 18pt;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  margin: var(--vertical-space) var(--horisontal-space);
+}
+
+.area-header {
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: var(--vertical-space) 0 calc(var(--vertical-space) * 3);
+  padding: 0 0 var(--vertical-space);
+}
+
+.item-primary {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-label {
+  font-weight: 800;
+}
+
+.item-description {
+  padding: var(--vertical-space) 0;
+}
+
+.item>* {
+  margin-right: var(--horisontal-space);
+}
+
+.item-period {
+  width: 20%;
+  min-width: 200px;
+  font-size: smaller;
+  align-items: center;
+}
+
+.item-facts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.period {
+  display: flex;
+  flex-direction: row;
+}
+
+.period-from {
+  white-space: noWrap;
+}
+
+.period-to {
+  margin-right: var(--horisontal-space);
+  white-space: noWrap;
+}
+
+.period-duration:before {
+  content: "("
+}
+
+.period-duration:after {
+  content: ")"
+}
+
+.area--companies {}
+
+.area--personal {
+  flex-wrap: wrap;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.person-base {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-name {
+  font-weight: 800;
+  font-size: larger;
+}
+
+.person-avatar {
+  width: 30vw;
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  order: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .period {
+    flex-direction: column;
+    min-width: 40px;
+    max-width: 80px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .item-facts {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .item-facts {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .item {
+    border-bottom: dashed 1px hsla(0, 10%, 40%, .24);
+  }
+}
+
+.hidden {
+  outline: solid;
+}
+
+a {
+  text-decoration: none;
+}

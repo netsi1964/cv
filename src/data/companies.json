@@ -1,0 +1,25 @@
+[{
+    "from": "2016-01-11",
+    "to": "2017-06-29",
+    "name": "Kamstrup",
+    "url": "http://kamstrup.dk",
+    "label": "Software developer",
+    "description": "Constructing a ReactJS based framework for Kamstrup webapplication. Based on latest technologies like PostCSS, ES2015, webpack, ReactJS, CSS variables, CSS Color 4 module and other."
+  },
+  {
+    "from": "2005-01-01",
+    "to": "",
+    "name": "Netsi",
+    "url": "http://www.netsi.dk",
+    "label": "Owner and developer",
+    "description": "I own my own company through wich I have done various jobs. Implementing in CMS system and SPA (<a href='http://juti.dk' target='_blank'>juti.dk</a>). I also use this company to creative tasks like making <a href='http://fruenseje.dk/film/' target='_blank'>drone videoes</a>"
+  },
+  {
+    "from": "2013-01-01",
+    "to": "2015-05-01",
+    "name": "1stweb.dk",
+    "url": "http://1stweb.dk",
+    "label": "Senior frontend developer",
+    "description": "Implementing websites in Dynamicweb CMS, Dynamicweb eCommerce and Umbraco."
+  }
+]
